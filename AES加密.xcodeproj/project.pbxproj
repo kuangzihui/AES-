@@ -11,16 +11,20 @@
 		82A63CDD1ACB91DF006A8415 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63CDC1ACB91DF006A8415 /* CoreGraphics.framework */; };
 		82A63CDF1ACB91DF006A8415 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63CDE1ACB91DF006A8415 /* UIKit.framework */; };
 		82A63CE51ACB91DF006A8415 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A63CE31ACB91DF006A8415 /* InfoPlist.strings */; };
-		82A63CE71ACB91DF006A8415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CE61ACB91DF006A8415 /* main.m */; };
-		82A63CEB1ACB91DF006A8415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CEA1ACB91DF006A8415 /* AppDelegate.m */; };
+		82A63CE71ACB91DF006A8415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CE61ACB91DF006A8415 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		82A63CEB1ACB91DF006A8415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CEA1ACB91DF006A8415 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		82A63CEE1ACB91DF006A8415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A63CEC1ACB91DF006A8415 /* Main.storyboard */; };
-		82A63CF11ACB91DF006A8415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CF01ACB91DF006A8415 /* ViewController.m */; };
+		82A63CF11ACB91DF006A8415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63CF01ACB91DF006A8415 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		82A63CF31ACB91DF006A8415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A63CF21ACB91DF006A8415 /* Images.xcassets */; };
 		82A63CFA1ACB91DF006A8415 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63CF91ACB91DF006A8415 /* XCTest.framework */; };
 		82A63CFB1ACB91E0006A8415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63CDA1ACB91DF006A8415 /* Foundation.framework */; };
 		82A63CFC1ACB91E0006A8415 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A63CDE1ACB91DF006A8415 /* UIKit.framework */; };
 		82A63D041ACB91E0006A8415 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A63D021ACB91E0006A8415 /* InfoPlist.strings */; };
 		82A63D061ACB91E0006A8415 /* AES__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63D051ACB91E0006A8415 /* AES__Tests.m */; };
+		82A63D191ACB91F5006A8415 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63D111ACB91F5006A8415 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		82A63D1A1ACB91F5006A8415 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63D141ACB91F5006A8415 /* NSData+AES.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		82A63D1B1ACB91F5006A8415 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63D161ACB91F5006A8415 /* NSString+MD5.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		82A63D1C1ACB91F5006A8415 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A63D181ACB91F5006A8415 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,15 @@
 		82A63D011ACB91E0006A8415 /* AES加密Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AES加密Tests-Info.plist"; sourceTree = "<group>"; };
 		82A63D031ACB91E0006A8415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82A63D051ACB91E0006A8415 /* AES__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES__Tests.m; sourceTree = "<group>"; };
+		82A63D101ACB91F5006A8415 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		82A63D111ACB91F5006A8415 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		82A63D121ACB91F5006A8415 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		82A63D131ACB91F5006A8415 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		82A63D141ACB91F5006A8415 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		82A63D151ACB91F5006A8415 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		82A63D161ACB91F5006A8415 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		82A63D171ACB91F5006A8415 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		82A63D181ACB91F5006A8415 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +125,7 @@
 		82A63CE01ACB91DF006A8415 /* AES加密 */ = {
 			isa = PBXGroup;
 			children = (
+				82A63D0F1ACB91ED006A8415 /* 工具 */,
 				82A63CE91ACB91DF006A8415 /* AppDelegate.h */,
 				82A63CEA1ACB91DF006A8415 /* AppDelegate.m */,
 				82A63CEC1ACB91DF006A8415 /* Main.storyboard */,
@@ -150,6 +164,22 @@
 				82A63D021ACB91E0006A8415 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82A63D0F1ACB91ED006A8415 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				82A63D101ACB91F5006A8415 /* GTMBase64.h */,
+				82A63D111ACB91F5006A8415 /* GTMBase64.m */,
+				82A63D121ACB91F5006A8415 /* GTMDefines.h */,
+				82A63D131ACB91F5006A8415 /* NSData+AES.h */,
+				82A63D141ACB91F5006A8415 /* NSData+AES.m */,
+				82A63D151ACB91F5006A8415 /* NSString+MD5.h */,
+				82A63D161ACB91F5006A8415 /* NSString+MD5.m */,
+				82A63D171ACB91F5006A8415 /* SecurityUtil.h */,
+				82A63D181ACB91F5006A8415 /* SecurityUtil.m */,
+			);
+			name = "工具";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A63D1B1ACB91F5006A8415 /* NSString+MD5.m in Sources */,
+				82A63D1A1ACB91F5006A8415 /* NSData+AES.m in Sources */,
 				82A63CF11ACB91DF006A8415 /* ViewController.m in Sources */,
+				82A63D1C1ACB91F5006A8415 /* SecurityUtil.m in Sources */,
 				82A63CEB1ACB91DF006A8415 /* AppDelegate.m in Sources */,
 				82A63CE71ACB91DF006A8415 /* main.m in Sources */,
+				82A63D191ACB91F5006A8415 /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
